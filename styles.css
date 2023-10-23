@@ -1,4 +1,7 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
     width: 300px;
     margin: 100px auto;
     text-align: center;
@@ -25,9 +28,13 @@ button {
 }
 
 #comicsImage {
-    width: 120%;  
-    height: auto; 
+    width: 100%;
+    height: auto;
     margin-top: 20px;
-    transform: scale(2); 
+    transform: scale(2);
+    transform-origin: top left;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
