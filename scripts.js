@@ -10001,7 +10001,7 @@ let pinData = [
  [8068, 0]];
 
 
-const GLOBAL_POPULATION = 7.8e9;  
+const GLOBAL_POPULATION_WITH_BANK = 6.4e9;  
 
 function checkPin() {
     let pinInput = document.getElementById("pinInput").value;
@@ -10023,7 +10023,7 @@ function checkPin() {
     if (pinFrequency === 0) {
         resultElement.textContent = "Your PIN is unique in the dataset!";
     } else {
-        const approximateUsers = Math.round((pinFrequency / 970018) * GLOBAL_POPULATION);
+        const approximateUsers = Math.round((pinFrequency / 970018) * GLOBAL_POPULATION_WITH_BANK);
         resultElement.textContent = `Approximately ${approximateUsers.toLocaleString()} users on Earth use this PIN!`;
     }
 }
