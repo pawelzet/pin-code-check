@@ -10021,7 +10021,7 @@ function checkPin() {
     }
 
     if (pinFrequency === 0) {
-        resultElement.textContent = "Your PIN is unique in the dataset!";
+        resultElement.textContent = "Your PIN quality is good!";
     } else {
         const approximateUsers = Math.round((pinFrequency / 970018) * GLOBAL_POPULATION_WITH_BANK);
         resultElement.textContent = `Approximately ${approximateUsers.toLocaleString()} users on Earth use this PIN!`;
