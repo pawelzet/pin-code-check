@@ -27,14 +27,4 @@ button {
     font-weight: bold;
 }
 
-#comicsImage {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    transform: scale(2);
-    transform-origin: top left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
