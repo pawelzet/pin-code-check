@@ -25,6 +25,10 @@ button {
 }
 
 #comicsImage {
-    width: 80%;  /* or any desired width */
+    width: 200%;  /* 2x the original width */
+    height: auto; /* maintain aspect ratio */
     margin-top: 20px;
+    transform: scale(2); /* scale the image 2 times */
+    transform-origin: top left; /* set the scaling point */
 }
+
