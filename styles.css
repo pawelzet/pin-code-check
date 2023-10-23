@@ -23,3 +23,8 @@ button {
     margin-top: 20px;
     font-weight: bold;
 }
+
+#comicsImage {
+    width: 80%;  /* or any desired width */
+    margin-top: 20px;
+}
